@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f984c1a-d2a6-4422-a37a-6da8acbcdd3d" name="Default Changelist" comment="statsmodels basics">
+    <list default="true" id="9f984c1a-d2a6-4422-a37a-6da8acbcdd3d" name="Default Changelist" comment="added EWMA code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/time series analysis/time_series_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/time series analysis/time_series_analysis.py" afterDir="false" />
     </list>
@@ -81,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600453501700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added EWMA code">
+      <created>1600503649640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600503649640</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added EWMA code">
+      <created>1600503654865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600503654865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,36 +112,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="statsmodels basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="statsmodels basics" />
+    <MESSAGE value="added EWMA code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added EWMA code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600426429674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600426429674" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1600503468273">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1600504601550">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600503468273" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1600503468271">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600504601550" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1600504601548">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600503468271" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1600503468271">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600504601548" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1600504601547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600503468271" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1600503468272">
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600504601547" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1600504601549">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600503468272" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600504601549" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600451222583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600451222583" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600453509566">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600503658394">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600453509566" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600503658394" />
   </component>
 </project>
