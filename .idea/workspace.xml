@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f984c1a-d2a6-4422-a37a-6da8acbcdd3d" name="Default Changelist" comment="added ETS code">
+    <list default="true" id="9f984c1a-d2a6-4422-a37a-6da8acbcdd3d" name="Default Changelist" comment="portfolio allocation part one">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time series analysis/time_series_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/time series analysis/time_series_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python finance fundamentals/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python finance fundamentals/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600505028973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="portfolio allocation part one">
+      <created>1600679741300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600679741300</updated>
+    </task>
+    <task id="LOCAL-00006" summary="portfolio allocation part one">
+      <created>1600679746154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600679746154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,40 +160,41 @@
     <MESSAGE value="statsmodels basics" />
     <MESSAGE value="added EWMA code" />
     <MESSAGE value="added ETS code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ETS code" />
+    <MESSAGE value="portfolio allocation part one" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio allocation part one" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600671195564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600671195564" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1600679595679">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1600680632942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600679595679" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600680632942" />
     <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1600581387105" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1600679595677">
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1600680632941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600679595677" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600680632941" />
     <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1600581387103" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1600679595676">
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1600680632940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600679595676" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600680632940" />
     <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1600581387101" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1600679595678">
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1600680632942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600679595678" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600680632942" />
     <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1600581387104" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600451222583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600451222583" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600505031720">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600679749590">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600505031720" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600679749590" />
   </component>
 </project>
