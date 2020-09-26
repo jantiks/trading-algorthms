@@ -28,9 +28,9 @@ log_ret = np.log(sotcks/sotcks.shift(1))# logarithmic return (we will use it for
 weights = np.array(np.random.random(4))#random allocation weights
 weights = weights/weights.sum()#rebalancing weights
 print("Expected portfolio return")
-exp_ret = np.sum((log_ret*weights)*252)
+exp_ret = np.sum((log_ret.mean()*weights))*252
 print("expected portfolio volatility")
-exp_vol = np.sqrt(np.dot(weights.T,np.dot(log_ret.cov()*252,weights)))
-print("Sarp Ratio")
+exp_vol = np.sqrt(np.dot(weights.T, np.dot(log_ret.cov() * 252, weights)))
+print("Sharp Ratio")
 SR = exp_ret/exp_vol
 print(SR)
