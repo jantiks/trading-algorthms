@@ -25,12 +25,28 @@ sotcks = pd.concat([aapl,csco,ibm,amzn],axis=1)
 sotcks.columns = ["apple","cisco","ibm","amazon"]
 log_ret = np.log(sotcks/sotcks.shift(1))# logarithmic return (we will use it for daily returns)
 # print(log_ret.cov())#calculates the relationship between collumns
-weights = np.array(np.random.random(4))#random allocation weights
-weights = weights/weights.sum()#rebalancing weights
-print("Expected portfolio return")
-exp_ret = np.sum((log_ret.mean()*weights))*252
-print("expected portfolio volatility")
-exp_vol = np.sqrt(np.dot(weights.T, np.dot(log_ret.cov() * 252, weights)))
-print("Sharp Ratio")
-SR = exp_ret/exp_vol
-print(SR)
+num_ports = 5000
+all_weights = np.zeros((num_ports,len(sotcks.columns)))
+ret_arr = np.zeros(num_ports)
+vol_arr = np.zeros(num_ports)
+sharpe_arr = np.zeros(num_ports)
+for ind in range(num_ports):
+    #weights
+    weights = np.array(np.random.random(4))#random allocation weights
+    weights = weights/weights.sum()#rebalancing weights
+    #save weights
+    all_weights[ind,:] = weights
+    #expected return
+    ret_arr[ind] = np.sum((log_ret.mean()*weights)*252)
+    #expected volatility
+    vol_arr[ind] = np.sqrt(np.dot(weights.T, np.dot(log_ret.cov() * 252, weights)))
+
+    sharpe_arr[ind] = ret_arr[ind]/vol_arr[ind]
+max_sr_vol = vol_arr[sharpe_arr.argmax()]
+max_sr_ret = ret_arr[sharpe_arr.argmax()]
+plt.scatter(vol_arr,ret_arr,c = sharpe_arr,cmap="plasma")
+plt.scatter(max_sr_vol,max_sr_ret,c="red",s=50,edgecolors="black")
+plt.colorbar(label = "sharp ratio")
+plt.xlabel("Volatility")
+plt.ylabel("return")
+plt.show()
